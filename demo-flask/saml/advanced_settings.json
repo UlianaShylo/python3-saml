@@ -1,5 +1,6 @@
 {
     "security": {
+        "requestedAuthnContext": false,
         "nameIdEncrypted": false,
         "authnRequestsSigned": false,
         "logoutRequestSigned": false,
