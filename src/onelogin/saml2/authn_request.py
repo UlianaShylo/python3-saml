@@ -95,7 +95,7 @@ class OneLogin_Saml2_Authn_Request(object):
         AllowCreate="true" />"""
                 % name_id_policy_format
             )
-
+        print(security["requestedAuthnContext"])
         requested_authn_context_str = ""
         if security["requestedAuthnContext"] is not False:
             authn_comparison = security["requestedAuthnContextComparison"]
